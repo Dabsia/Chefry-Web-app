@@ -1,0 +1,144 @@
+@font-face {
+    font-family:Mint-Grotesk-Trial;
+    src: url(../Mint-Grotesk-Trial/MintGroteskItalicRegularTrial.otf);
+}
+@font-face {
+    font-family: Mint-Grotest-bold;
+    src: url(../Mint-Grotesk-Trial/MintGroteskExtraBoldTrial.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mint-Grotesk-Trial;
+    overflow-x: hidden;
+    
+}
+main{
+    margin: 2rem;
+}
+header{
+    margin:2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header__title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #080613;
+    font-family: Mint-Grotest-bold;
+    
+}
+.nav-icons{
+    color: #ff4242;
+    font-size: 16px;
+}
+.hero{
+    width: 100%;
+
+}
+
+
+.share{
+    background-color: #ff4242;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    padding-top: 8px;
+}
+.hero img{
+    width: 100%;
+    border-radius: 16px;
+
+}
+.bookmark{
+    font-size: 25px;
+    color: #ff4242;
+    background-color: #fff;
+    margin-right: 3px;
+    padding: 8px;
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 6%) 
+}
+.title-holder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+} 
+.hero__hero_title{
+    width: 179px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(8, 6, 19, 0.97);
+    
+}
+.hero__hero_desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(8, 6, 19, 0.675241);
+    margin-top: 1.2rem;
+
+}
+.ingredient__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(8, 6, 19, 0.97);
+    margin-top: 1.2rem;
+    font-family: Mint-Grotest-bold;
+}
+.ingredient__item{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f7f8;
+    padding: 18px;
+    border-radius: 10px;
+}
+.ingredient__item-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(8, 6, 19, 0.97);
+    
+     
+}
+.item{
+    margin-top: 1.2rem;
+}
+
+.ingredient__item-weight{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(8, 6, 19, 0.675241);
+}
+.footer{
+    margin-top: 3.2rem;
+}
+.footer__text{
+    font-family: Mint-Grotesk-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;  
+    color: rgba(8, 6, 19, 0.97);
+}
+.footer__desc{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 1rem;
+    color: rgba(8, 6, 19, 0.675241);
+}

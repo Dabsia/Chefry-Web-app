@@ -1,0 +1,101 @@
+@font-face {
+    font-family:Mint-Grotesk-Trial;
+    src: url(../Mint-Grotesk-Trial/MintGroteskItalicRegularTrial.otf);
+}
+@font-face {
+    font-family: Mint-Grotest-bold;
+    src: url(../Mint-Grotesk-Trial/MintGroteskExtraBoldTrial.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mint-Grotesk-Trial;
+    overflow-x: hidden;
+    
+}
+
+.signup{
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.signup__text{
+    font-family: Mint-Grotest-bold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 47px;
+    color: #080613;
+}
+.signup__desc{
+    font-size: 14px;
+    line-height: 18px;
+    color: #080613;
+    margin-top: 4px;
+}
+
+
+.name{
+    margin-top: 3rem;
+}
+.signup__username{
+    margin-top: 1.5rem;
+}
+.signup__password{
+    margin-top: 1.5rem;
+    position: relative;
+}
+label{
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(8, 6, 19, 0.675241);
+
+}
+input{
+    background: #F8F7F8;
+    border-radius: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 85%;
+    padding-left: 20px;
+}
+input::placeholder{
+    font-size: 12px;
+}
+
+.eye{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    color: rgba(7, 3, 49, 0.4);
+}
+button.signup__CTA{
+    background: #FF4242;
+    border-radius: 100px;
+    width: 85%;
+    height: 50px;
+    border: none;
+    outline:none;
+    margin-top: 2.5rem;
+    color: #fff;
+}
+
+.back-arrow{
+    font-size: 30px;
+    
+    margin-left: 2rem;
+    text-decoration: none;
+    
+}
+.arrow-back{
+    margin-top: 2rem;
+}
+a{
+    
+    text-decoration: none;
+    color: #080613;
+}
+a.CTA{
+    color: #fff;
+}
