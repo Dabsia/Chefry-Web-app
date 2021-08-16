@@ -136,7 +136,7 @@ input::placeholder{
 .food-item1 {
     height: 346px;
     border-radius: 15px;
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgb(0, 0, 0, .9)), url(../Images/image6.png) ;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgb(0, 0, 0, .9)), url(../Images/image4.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 30px;

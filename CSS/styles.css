@@ -86,13 +86,15 @@ a{
     color: #fff;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
     margin-right: 2rem;
     padding-top: .5rem;
-    
 
-
+}
+.next__page{
+    margin: 0;
+    font-size: 14px;
 }
 @media screen and (min-width: 720px) {
     h2{
