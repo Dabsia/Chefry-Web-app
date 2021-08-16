@@ -40,13 +40,13 @@ header{
 
 .head-nav h1{
     font-weight: bold;
-    font-size: 36px;
+    font-size:20px;
     line-height: 26px;
     color: #080613;
     font-family: Mint-Grotest-bold;
 }
 .head-nav p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 17px;
     color: rgba(8, 6, 19, 0.675241);
     margin-top: 4px;
@@ -121,13 +121,13 @@ input::placeholder{
 .food__name{
     color: #fff;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 26px;
     width: 166px;
 }
 .food__ingredient{
     color: rgb(213, 211, 211);
-    font-size: 16px;
+    font-size: 13px;
     line-height: 16px;
     margin-top: 10px;
 }
@@ -181,9 +181,9 @@ button{
     outline: none;
     color: #fff;
     background: transparent;
-    margin-left: 55px;
+    margin-left: 50px;
     margin-top: 5px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .btn{
     background: #ff4242;

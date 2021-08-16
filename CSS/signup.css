@@ -28,7 +28,7 @@
     color: #080613;
 }
 .signup__desc{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 18px;
     color: #080613;
     margin-top: 4px;
@@ -46,7 +46,7 @@
     position: relative;
 }
 label{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 17px;
     color: rgba(8, 6, 19, 0.675241);
 
@@ -56,13 +56,13 @@ input{
     border-radius: 100px;
     height: 40px;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     outline: none;
     width: 85%;
     padding-left: 20px;
 }
 input::placeholder{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .eye{
@@ -99,4 +99,5 @@ a{
 }
 a.CTA{
     color: #fff;
+    font-size: 16px;
 }
