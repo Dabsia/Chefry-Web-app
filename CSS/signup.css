@@ -23,12 +23,12 @@
     font-family: Mint-Grotest-bold;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 36px;
     line-height: 47px;
     color: #080613;
 }
 .signup__desc{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     color: #080613;
     margin-top: 4px;
@@ -46,7 +46,7 @@
     position: relative;
 }
 label{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 17px;
     color: rgba(8, 6, 19, 0.675241);
 
@@ -56,12 +56,13 @@ input{
     border-radius: 100px;
     height: 40px;
     border: none;
+    font-size: 16px;
     outline: none;
     width: 85%;
     padding-left: 20px;
 }
 input::placeholder{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .eye{
