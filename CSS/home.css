@@ -33,7 +33,6 @@ html{
 header{
     display: flex;
     justify-content: space-between;
-    margin-top: 1.7rem;
     margin-bottom: 2rem;
     
 }
