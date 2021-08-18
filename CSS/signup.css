@@ -76,7 +76,7 @@ input::placeholder{
     right: 20%;
     color: rgba(7, 3, 49, 0.4);
 }
-.signup__CTA{
+a.signup__CTA{
     background: #FF4242;
     border-radius: 100px;
     width: 85%;
@@ -104,7 +104,7 @@ a{
     color: #080613;
     margin-top: 2rem;
 }
-.CTA{
+a.CTA{
     color: #fff;
     font-size: 16px;
     margin-top: 1rem;
