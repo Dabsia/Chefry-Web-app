@@ -29,7 +29,6 @@ main{
 .hero__app{
     padding-bottom: 70px;
     width: 100%;
-    /* margin-bottom: 20px; */
 }
 
 .hero__app__name{
@@ -78,7 +77,7 @@ h2{
 .hero__app__buttons{
     display: flex;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
 }
 
 a{
