@@ -78,7 +78,7 @@ h2{
 .hero__app__buttons{
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 a{
@@ -95,7 +95,6 @@ a{
 .next__page{
     margin: 0;
     font-size: 14px;
-    margin-top: 3rem;
 }
 @media screen and (min-width: 720px) {
     h2{
